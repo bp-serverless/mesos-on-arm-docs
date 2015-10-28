@@ -1,5 +1,4 @@
 # cookbook-mesos-rpi
-Chef Cookbook to install Mesos on a Raspberry Pi
 
 Basic documentation
 https://github.com/strus38/rpi-mesos
