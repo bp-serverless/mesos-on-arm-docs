@@ -1,4 +1,4 @@
-# Mesos on ARM
+# Mesos on ARM (Raspberry Pi on Raspbian)
 
 List of helpful resources on how to build and run Apache Mesos on a Raspberry Pi. The commands below are meant to be used on Raspbian. 
 
