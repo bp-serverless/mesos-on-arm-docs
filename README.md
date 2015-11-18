@@ -1,6 +1,8 @@
-# cookbook-mesos-rpi
+# Mesos on ARM
 
-Dependencies needed on a Raspbian
+List of helpful resources on how to build and run Apache Mesos on a Raspberry Pi.
+
+Prerequisits
 ```
 sudo apt-get install dh-autoreconf 
 ```
@@ -13,7 +15,7 @@ git clone https://github.com/rpi-cloud/mesos-on-arm.git
 Build
 ```
 # Change working directory.
-$ cd mesos
+$ cd mesos-on-arm
 
 # Bootstrap (Only required if building from git repository).
 $ ./bootstrap
