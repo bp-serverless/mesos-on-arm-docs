@@ -6,7 +6,8 @@ List of helpful resources on how to build and run Apache Mesos on a Raspberry Pi
 
 Before we start, we need to install a few packages:
 ```
-sudo apt-get install dh-autoreconf gcc-4.8 g++-4.8 cpp-4.8 libapr1-dev libsvn-dev python-dev
+sudo apt-get install dh-autoreconf gcc-4.8 g++-4.8 cpp-4.8 \
+  libapr1-dev libsvn-dev python-dev
 ```
 
 We now need to updated the alternatives to the new gcc/g++ compiler:
