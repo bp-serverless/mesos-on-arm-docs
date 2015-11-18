@@ -7,6 +7,15 @@ List of helpful resources on how to build and run Apache Mesos on a Raspberry Pi
 sudo apt-get install dh-autoreconf gcc-4.8 g++-4.8 cpp-4.8
 ```
 
+```
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 20
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 20
+sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 30
+sudo update-alternatives --set cc /usr/bin/gcc
+sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30
+sudo update-alternatives --set c++ /usr/bin/g++
+```
+
 ##Clone
 ```
 git clone https://github.com/rpi-cloud/mesos-on-arm.git
