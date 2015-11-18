@@ -1,8 +1,8 @@
-# Mesos on ARM (Raspberry Pi on Raspbian)
+# Apache Mesos on ARM (Raspberry Pi on Raspbian)
 
-List of helpful resources on how to build and run Apache Mesos on a Raspberry Pi. The commands below are meant to be used on Raspbian. 
+List of helpful resources on how to build and run Apache Mesos on a Raspberry Pi. The commands below are meant to be used on Raspbian.
 
-##Prerequisits
+## Prerequisits
 
 Before we start, we need to install a few packages:
 ```
@@ -29,15 +29,15 @@ sudo dphys-swapfile swapon
 
 Set `JAVA_HOME`:
 ```
-export JAVA_HOME=/usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/ 
+export JAVA_HOME=/usr/lib/jvm/jdk-8-oracle-arm-vfp-hflt/
 ```
 
-##Clone
+## Clone
 ```
 git clone https://github.com/rpi-cloud/mesos-on-arm.git
 ```
 
-##Build
+## Build
 ```
 # Change working directory.
 cd mesos-on-arm
@@ -52,7 +52,7 @@ cd build
 make
 ```
 
-##Run
+## Run
 ```
 # Change into build directory.
 cd build
