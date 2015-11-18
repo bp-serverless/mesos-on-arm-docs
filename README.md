@@ -27,6 +27,20 @@ $ ../configure
 $ make
 ```
 
+Run
+```
+# Change into build directory.
+$ cd build
+
+# Start mesos master (Ensure work directory exists and has proper permissions).
+$ ./bin/mesos-master.sh --ip=127.0.0.1 --work_dir=/var/lib/mesos
+
+# Start mesos slave.
+$ ./bin/mesos-slave.sh --master=127.0.0.1:5050
+
+# Visit the mesos web page.
+$ http://127.0.0.1:5050
+```
 
 # References
 
