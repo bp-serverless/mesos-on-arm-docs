@@ -2,17 +2,17 @@
 
 List of helpful resources on how to build and run Apache Mesos on a Raspberry Pi.
 
-Prerequisits
+##Prerequisits
 ```
 sudo apt-get install dh-autoreconf 
 ```
 
-Clone
+##Clone
 ```
 git clone https://github.com/rpi-cloud/mesos-on-arm.git
 ```
 
-Build
+##Build
 ```
 # Change working directory.
 $ cd mesos-on-arm
@@ -27,7 +27,7 @@ $ ../configure
 $ make
 ```
 
-Run
+##Run
 ```
 # Change into build directory.
 $ cd build
