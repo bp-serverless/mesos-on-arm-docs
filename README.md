@@ -1,10 +1,10 @@
 # Mesos on ARM
 
-List of helpful resources on how to build and run Apache Mesos on a Raspberry Pi.
+List of helpful resources on how to build and run Apache Mesos on a Raspberry Pi. The commands below are meant to be used on Raspbian. 
 
 ##Prerequisits
 ```
-sudo apt-get install dh-autoreconf 
+sudo apt-get install dh-autoreconf gcc-4.8 g++-4.8 cpp-4.8
 ```
 
 ##Clone
