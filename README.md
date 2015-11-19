@@ -52,6 +52,8 @@ cd build
 make
 ```
 
+Since the build will take a while (> 4 hours), run the `make` command in a `screen`/`tmux` session. Detach & and enjoy life! 
+
 ## Run
 ```
 # Change into build directory.
