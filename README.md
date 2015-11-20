@@ -69,6 +69,26 @@ cd build
 curl http://127.0.0.1:5050
 ```
 
+Unfortunatelly the running part is not working at the moment. You should see something like that when you try to start the Mesos master:
+
+```
+F1011 04:18:06.323731  7467 leveldb.cpp:160] Check failed: leveldb::BytewiseComparator()->Compare(one, two) < 0 
+*** Check failure stack trace: ***
+    @ 0x762f0bb8  google::LogMessage::Fail()
+    @ 0x762f2bc4  google::LogMessage::SendToLog()
+    @ 0x762f0760  google::LogMessage::Flush()
+    @ 0x762f3528  google::LogMessageFatal::~LogMessageFatal()
+    @ 0x76195b30  mesos::internal::log::LevelDBStorage::restore()
+    @ 0x76205a94  mesos::internal::log::ReplicaProcess::restore()
+    @ 0x76206260  mesos::internal::log::ReplicaProcess::ReplicaProcess()
+    @ 0x76206440  mesos::internal::log::Replica::Replica()
+    @ 0x7619a1cc  mesos::internal::log::LogProcess::LogProcess()
+    @ 0x7619a518  mesos::internal::log::Log::Log()
+    @    0x213fc  main
+    @ 0x75228294  (unknown)
+Aborted
+```
+
 # References
 
 * Basic documentation
