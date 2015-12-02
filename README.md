@@ -42,6 +42,10 @@ git clone https://github.com/rpi-cloud/mesos-on-arm.git
 # Change working directory.
 cd mesos-on-arm
 
+# Checkout the comperator fix branch
+git fetch
+git checkout comparator_fix
+
 # Bootstrap (Only required if building from git repository).
 ./bootstrap
 
