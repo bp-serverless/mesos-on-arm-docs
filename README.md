@@ -1,5 +1,9 @@
 # Apache Mesos on ARM (Raspberry Pi on Raspbian)
 
+# UPDATE:
+A working tutorial on how to get Apache Mesos running on a Raspberry Pi can be found here: http://a.frtzlr.com/running-apache-mesos-on-a-raspberry-pi-2/
+
+# Deprecated 
 List of helpful resources on how to build and run Apache Mesos on a Raspberry Pi. The commands below are meant to be used on Raspbian.
 
 ## Prerequisits
